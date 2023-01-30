@@ -14,8 +14,4 @@ public class JedisHolder {
         jedis.auth("root");
         return jedis;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
